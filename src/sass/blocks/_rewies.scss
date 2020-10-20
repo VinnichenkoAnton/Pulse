@@ -1,0 +1,33 @@
+.rewies {
+    &__item {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin: 70px 0 100px 0;
+    }
+    &__img {
+        display: block;
+        max-width: 169px;
+    }
+    &__descr {
+        margin-left: 62px;
+        padding-right: 60px;
+    }
+    &__author {
+        font-size: 18px;
+        font-weight: 700;
+        color: #0d0d0d;
+    }
+    &__ammount {
+        font-size: 14px;
+        font-weight: 300;
+        color: #646464;
+        padding: 10px 0 19px 0;
+    }
+    &__info {
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #0d0d0d;
+    }
+}
