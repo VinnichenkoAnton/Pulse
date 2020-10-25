@@ -1,0 +1,262 @@
+@media (max-width: 991px) {
+    .container {
+        padding: 16px;
+    }
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        color: $main-color;
+        button {
+            visibility: hidden;
+        }
+    }
+    .modal {
+        max-height: 380px;
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        &__logo {
+            width: 180px;
+        }
+        &__official {
+            font-size: 12px;
+            span {
+                font-size: 16px;
+            }
+        }
+        &__contacts {
+            a {
+                font-size: 13px;
+            }
+            button {
+                width: 114px;
+                font-size: 11px;
+            }
+        }
+        &__phone {
+            font-size: 16px;
+        }
+    }
+    .carousel__inner {
+        max-width: 100%;
+        img {
+            max-width: 100%;
+        }
+    }
+    .catalog {
+        padding-bottom: 20px;
+        &__content {
+            justify-content: space-around;
+        }
+        &__item {
+            width: 340px;
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 38px;
+        }
+        &__subheader {
+            font-size: 23px;
+        }
+    }
+    .rewies {
+        &__descr {
+            margin-left: 12px;
+            padding-right: 10px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        &__logo {
+            width: 140px;
+        }
+        &__official {
+            display: none;
+        }
+        &__contacts {
+            align-items: center;
+            a {
+                font-size: 11px;
+            }
+            button {
+                width: 114px;
+                font-size: 8px;
+                height: 20px;
+            }
+        }
+    }
+    .promo {
+        padding-bottom: 40px;
+        &__wrapper {
+            margin-top: 70px;
+            align-items: center;
+            button {
+                width: 240px;
+                font-size: 14px;
+                height: 40px;
+            }
+        }
+        &__header {
+            text-align: center;
+            font-size: 26px;
+        }
+        &__subheader {
+            text-align: end;
+            font-size: 19px;
+        }
+        &__icons {
+            width: 280px;
+        }
+        &_icon {
+            width: 75px;
+            font-size: 10px;
+        }
+        &__link {
+            margin-top: 7px;
+            font-size: 13px;
+        }
+    }
+    .advantages {
+        padding: 40px 0 40px 0;
+        &__subdiv {
+            margin-top: 40px;
+        }
+        &__def {
+            font-size: 17px;
+        }
+        &__descr {
+            margin-top: 15px;
+            font-size: 11px;
+        }
+    }
+    .consultation {
+        min-height: 400px;
+        padding: 40px 0 40px 0;
+        label {
+            font-size: 9px;
+        }
+        &__descr {
+            font-size: 14px;
+            line-height: 14px;
+        }
+        button {
+            height: 40px;
+            font-size: 12px;
+        }
+    }
+    .consultation label.error {
+        margin-bottom: 7px;
+    }
+    .title {
+        font-size: 26px;
+        &_left {
+            font-size: 18px;
+            line-height: 20px;
+        }
+    }
+    .carousel {
+        padding: 10px 0;
+    }
+    .catalog {
+        padding-bottom: 0;
+        &__tab {
+            width: 84px;
+            height: 40px;
+            font-size: 9px;
+            line-height: 40px;
+            margin: 0 1px;
+        }
+        &__content {
+            margin-top: 20px;
+        }
+    }
+    .catalog-item {
+        &__img {
+            height: 160px;
+        }
+    }
+    .rewies {
+        &__item {
+            margin: 10px 0 25px 0;
+        }
+        &__descr {
+            margin-left: 12px;
+            padding-right: 10px;
+        }
+        &__img {
+            width: 100px;
+        }
+        &__author {
+            font-size: 16px;
+        }
+        &__ammount {
+            font-size: 11px;
+            padding: 2px 0 5px 0;
+        }
+        &__info {
+            font-size: 10px;
+        }
+    }
+    .footer {
+        &__info {
+            width: 240px;
+            height: 130px;
+            padding: 23px;
+        }
+        &__addr {
+            font-size: 14px;
+            margin-bottom: 6px;
+            line-height: 16px;
+        }
+        &__phone {
+            font-size: 14px;
+            margin-bottom: 6px;
+        }
+        &__item {
+            margin: 0 8px;
+            width: 40px;
+            height: 40px;
+        }
+    }
+    .modal {
+        width: 200px;
+        min-height: 260px;
+        padding: 10px;
+        &__subtitle {
+            font-size: 11px;
+        }
+        &__descr {
+            font-size: 10px;
+        }
+        &__close {
+            font-size: 25px;
+            right: -25px;
+        }
+    }
+    .feed-form {
+        width: 180px;
+        input {
+            font-size: 12px;
+            height: 35px;
+            margin-bottom: 5px;
+            &:nth-child(3) {
+                margin-bottom: 5px;
+            }
+        }
+        &_mt {
+            margin-top: 10px;
+        }
+    }
+    .pageup {
+        bottom: 30px;
+        right: 30px;
+        width: 30px;
+        height: 30px;
+    }
+}
